@@ -8,7 +8,7 @@ const Weather = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const apiKey = '5f547758932b38a665c0f9a2af041dea';
+        const apiKey = '151f493ef91325bb4af22e8b7fde7c7d';
         const cityId = 524901; // Replace with the desired city ID
         const apiUrl = `http://api.openweathermap.org/data/2.5/forecast?id=${cityId}&appid=${apiKey}`;
 
