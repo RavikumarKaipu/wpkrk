@@ -1,0 +1,36 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 10vw;
+}
+.temp-card{
+    background-color: black;
+    color: #fff;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+.main-temp-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    line-height: 5px;
+}
+h1{
+    font-size: 14px;
+    text-align: center;
+}
+.flex-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80vw;
+}
+hr{
+    width: 12vw;
+}
